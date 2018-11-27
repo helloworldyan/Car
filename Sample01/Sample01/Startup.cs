@@ -61,7 +61,7 @@ namespace Sample01
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-            DbInitializer.Initialize(context);//记得添加这行
+            //DbInitializer.Initialize(context);//记得添加这行
         }
     }
 }
